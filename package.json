@@ -1,0 +1,29 @@
+{
+    "name": "agent-connect",
+    "version": "2.0.0",
+    "description": "Secure webhook-based inter-agent communication for OpenClaw",
+    "main": "index.js",
+    "bin": {
+        "agent-connect": "./index.js"
+    },
+    "scripts": {
+        "start": "node index.js start",
+        "stop": "node index.js stop",
+        "setup": "node index.js setup",
+        "status": "node index.js status",
+        "friends": "node index.js friends"
+    },
+    "keywords": [
+        "openclaw",
+        "agent",
+        "webhook",
+        "communication",
+        "cloudflare"
+    ],
+    "author": "",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arakichanxd/Agent-Connect"
+    }
+}
